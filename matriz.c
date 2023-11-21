@@ -18,6 +18,17 @@ for ( i = 0; i < 2; i++)
     
 }
 
+printf ("\nElementos da matriz:\n");
+for ( i = 0; i < 2; i++)
+{
+   for ( j = 0; j < 2; j++)
+   {
+    printf ("Elemnetos da linha %d coluna %d: %d\n", i + 1, j + 1, numero [i] [j]);
+   }
+   
+}
+
+
 
 
 
